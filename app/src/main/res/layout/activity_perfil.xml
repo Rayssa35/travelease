@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECDD2"
+    tools:context=".Perfil"
+    tools:layout_editor_absoluteX="-12dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDCCD1"
+        android:text="Alterar senha"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="86dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/group_284"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="161dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#0F044C"
+        android:text="Ver Reservas"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <Button
+        android:id="@+id/sair"
+        android:layout_width="97dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#0D0443"
+        android:text="Sair"
+        android:textSize="18sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:text="Perfil"
+        android:textColor="#0F044C"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Minhas Reservas"
+        android:textAlignment="center"
+        android:textColor="#0F044C"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="262dp"
+        android:layout_height="34dp"
+        android:text="Segurança e Privacidade"
+        android:textAlignment="viewStart"
+        android:textColor="#0F044C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dúvidas? Entre em contato"
+        android:textColor="#0F044C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="763dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDCCD1"
+        android:text="Alterar e-mail da conta"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:autoText="false"
+        android:backgroundTint="#CDCCD1"
+        android:text="Gerenciar informações do cartão"
+        android:textAlignment="viewEnd"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:autoText="false"
+        android:backgroundTint="#CDCCD1"
+        android:text="Gerenciar informações do cartão"
+        android:textAlignment="viewEnd"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="277dp"
+        android:layout_height="36dp"
+        android:autoText="false"
+        android:backgroundTint="#CDCCD1"
+        android:text="Controle o acesso a esta conta"
+        android:textAlignment="viewStart"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="277dp"
+        android:layout_height="36dp"
+        android:autoText="false"
+        android:backgroundTint="#CDCCD1"
+        android:text="Alterar foto de perfil"
+        android:textAlignment="viewStart"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDCCD1"
+        android:text="Termos de Uso"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="846dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDCCD1"
+        android:text="Gerenciar Conta"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDCCD1"
+        android:text="Central de Ajuda"
+        android:textColor="#0F044C"
+        android:textColorLink="#FEFAFD"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="846dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="usuário12@gmail.com"
+        android:textColor="#0F044C"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha: ********"
+        android:textColor="#0F044C"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•••• •••• •••• 1156"
+        android:textColor="#0F044C"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•••• •••• •••• 4218"
+        android:textColor="#0F044C"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shutterstock_1910141359_810x540_1"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="58dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/rectangle_164"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_mastercard_1536_2"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="415dp"
+        android:layout_height="2dp"
+        app:cardBackgroundColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="326dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="2dp"
+        android:rotation="-90"
+        app:cardBackgroundColor="#FFFFFF"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="415dp"
+        android:layout_height="2dp"
+        app:cardBackgroundColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="426dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="415dp"
+        android:layout_height="2dp"
+        app:cardBackgroundColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="582dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="415dp"
+        android:layout_height="2dp"
+        app:cardBackgroundColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="746dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDCCD1"
+        app:srcCompat="@drawable/group_244"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

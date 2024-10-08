@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F044C"
+    android:backgroundTint="#CECDD2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu a senha?"
+        android:textColor="#D0D0D0"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Entrar"
+        android:textColor="#0F044C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ou entre com"
+        android:textColor="#BFBEC4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="787dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="270dp"
+        android:layout_height="56dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/person_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        android:drawableTint="#78787A"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="   E-mail"
+        android:textColor="#D4D3D8"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group_282"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0F044C"
+        android:text="cadastre-se"
+        android:textColor="#CFCFCF"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="726dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTintMode="multiply"
+        app:srcCompat="@drawable/group_287"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="821dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        app:srcCompat="@drawable/group_288"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="821dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Não tem uma conta?"
+        android:textColor="#CFCFCF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="270dp"
+        android:layout_height="56dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="add"
+        android:drawableLeft="@drawable/key_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        android:drawableRight="@drawable/visibility_off_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        android:drawableTint="#6C6C6E"
+        android:ems="10"
+        android:phoneNumber="false"
+        android:text="   Senha"
+        android:textAllCaps="false"
+        android:textColor="#CECDD2"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFEFE"
+        android:textCursorDrawable="@drawable/ic_launcher_foreground"
+        app:circularflow_angles="100"
+        app:circularflow_defaultAngle="100"
+        app:circularflow_radiusInDP="100"
+        app:circularflow_viewCenter="100"
+        app:layout_constraintCircleRadius="100dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
